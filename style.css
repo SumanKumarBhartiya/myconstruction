@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("static/site-1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #b4a0a0bb;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #f4b400;
+  color: #000;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* About */
+.about p {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Services */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #80dfcf;
+  padding: 25px;
+  text-align: center;   
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* Projects */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Contact */
+.contact {
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+}
